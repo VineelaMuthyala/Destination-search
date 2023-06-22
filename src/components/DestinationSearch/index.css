@@ -1,0 +1,30 @@
+.bg-container {
+  font-family: 'roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.heading {
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+}
+.search-image {
+  width: 20px;
+  height: 20px;
+}
+.list-container {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 500px;
+}
+.search-container {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+}
